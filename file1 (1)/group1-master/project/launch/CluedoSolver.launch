@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="project" type="move_to_room_entrance.py" name="navigator" output="screen"/>
+	<node pkg="project" type="Cluedo_Solver_new.py" name="cluedoSolver" output="screen"/>
+</launch>

@@ -1,0 +1,14 @@
+To run the program to find and identify the cluedo character:
+
+1) In the folder that this file is saved in, there is a folder called 'Input_Points'. Copy the input points for the world into this folder and call the file "input_points.yaml"
+
+2) In the singularity, execute the following commands:
+
+	pip install --user imutils
+	xterm&
+
+3) In the Xterm window that appears, navigate to the group_project folder and execute:
+
+	rosrun project Cluedo_Solver_new.py
+
+The picture of the green cicle, the picture of the poster and the text file containing the name of the identified character will be saved in the "Project_Output" folder
